@@ -44,10 +44,16 @@ def reverse(word):
         rev_text = char + rev_text
     return rev_text
 
-@app.route('strangecaps/<word>')
-def strangecaps(word):
-    for char in word:
-        
+# @app.route('/strangecaps/<word>')
+# def strangecaps(word):
+#     for char in word:
+#         if (char/2) % 0:
+#             return char.lower()
+#         elif (char/2) % 1:
+#             return char.upper()
+
+    
+
 
 if __name__ == '__main__':
     app.run(debug=True)
